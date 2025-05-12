@@ -1,4 +1,5 @@
 ---
+hidden: true
 icon: file-spreadsheet
 ---
 
@@ -67,7 +68,6 @@ The 100M ecosystem growth pool is used to incentivise growth and adoption of ope
 
 Staked Tokens are treated the same as Earnings & Governance rewards tokens, but can be unstaked without the need to perform the governance functions necessarily.
 
-\
 
 
 4\. Private Round&#x20;

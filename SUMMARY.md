@@ -21,6 +21,7 @@
 * [Native OpenWork Contract](smart-contract-details/native-openwork-contract.md)
 * [Local OpenWork Contract](smart-contract-details/local-openwork-contract.md)
 * [Earnings and Reward Contract](smart-contract-details/earnings-and-reward-contract.md)
+* [Rewards Table](smart-contract-details/rewards-table.md)
 * [Main Token Contract](smart-contract-details/main-token-contract.md)
 * [Bridge Contracts](smart-contract-details/bridge-contracts.md)
 
