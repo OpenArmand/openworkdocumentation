@@ -4,11 +4,47 @@ icon: network-wired
 
 # Native DAO
 
-The Native DAO references the Main DAO for verification of key data like member details. It is mainly responsible to kick-start Skills/Oracles and enact other key decisions related to Athena like adding/penalizing members.\
-The Native DAO is divided into 2 parts:\
-&#x20; 1\.  NativeDAOGovernance contract
+The Native DAO references the Main DAO for verification of key data like member details. It is mainly responsible to kick-start Skills/Oracles and enact other key decisions related to Athena like adding/penalizing members.
+
+\
+The Native DAO is divided into 2 parts to stay within the limit of ethereum contract size limit:
+
+&#x20;1\.  NativeDAOGovernance contract
 
 2. Skill Oracle Manager contract
+
+The functions are split according to the below table and second table describes these functions in detail
+
+| Feature Description                                    | Contract Location   |
+| ------------------------------------------------------ | ------------------- |
+| Treasury management of OpenWork tokens and funds       | NativeDAOGovernance |
+| Token minting (1B tokens on Ethereum Mainnet)          | NativeDAOGovernance |
+| Staking functionality on Ethereum through MainDAO      | NativeDAOGovernance |
+| DAO membership management (100k tokens minimum)        | NativeDAOGovernance |
+| Staking periods (1, 2, 3 years with multipliers)       | NativeDAOGovernance |
+| Voting on proposals with staked tokens                 | NativeDAOGovernance |
+| Unstaking/redeeming tokens (14-day timelock)           | NativeDAOGovernance |
+| Penalty stake removal                                  | NativeDAOGovernance |
+| Proposal initiation (1M tokens required)               | NativeDAOGovernance |
+| Voting threshold management (80% majority, 20% quorum) | NativeDAOGovernance |
+| Vote delegation functionality                          | NativeDAOGovernance |
+| Cross-chain upgrade authorization                      | NativeDAOGovernance |
+| Earned tokens vesting/staking management               | NativeDAOGovernance |
+| Governance action tracking                             | NativeDAOGovernance |
+| Contract references across chains                      | NativeDAOGovernance |
+| Upgradeable contract patterns (except Token)           | Both                |
+| Voting rules updates                                   | NativeDAOGovernance |
+| Minimum staking rule updates                           | NativeDAOGovernance |
+| Skills registration and management                     | SkillOracleManager  |
+| Skill oracle creation and management                   | SkillOracleManager  |
+| Oracle membership eligibility                          | SkillOracleManager  |
+| Oracle activation threshold (20 members)               | SkillOracleManager  |
+| Verifier action recording                              | SkillOracleManager  |
+| User skill verification                                | SkillOracleManager  |
+| Oracle voting power management                         | SkillOracleManager  |
+| Skill verification date tracking                       | SkillOracleManager  |
+
+
 
 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                   | Implementation                                                                                                                                                                                                                                                                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
