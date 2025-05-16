@@ -2,9 +2,13 @@
 icon: network-wired
 ---
 
-# Native DAO Contract
+# Native DAO
 
-The Native DAO references the Main DAO for verification of key data like member details. It is mainly responsible to kick-start Skills/Oracles and enact other key decisions related to Athena like adding/penalizing members.
+The Native DAO references the Main DAO for verification of key data like member details. It is mainly responsible to kick-start Skills/Oracles and enact other key decisions related to Athena like adding/penalizing members.\
+The Native DAO is divided into 2 parts:\
+&#x20; 1\.  NativeDAOGovernance contract
+
+2. Skill Oracle Manager contract
 
 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                   | Implementation                                                                                                                                                                                                                                                                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -14,13 +14,13 @@
 ## Smart Contract Details
 
 * [OpenWork Chain](smart-contract-details/openapi.md)
-* [Main DAO Contract](smart-contract-details/openapi-1.md)
-* [Native DAO Contract](smart-contract-details/openapi-2.md)
+* [Main DAO](smart-contract-details/openapi-1.md)
+* [Native DAO](smart-contract-details/openapi-2.md)
 * [Native Athena Contract](smart-contract-details/native-athena-contract.md)
 * [Athena Client Contract](smart-contract-details/athena-client-contract.md)
 * [Native OpenWork Contract](smart-contract-details/native-openwork-contract.md)
 * [Local OpenWork Contract](smart-contract-details/local-openwork-contract.md)
-* [Earnings and Reward Contract](smart-contract-details/earnings-and-reward-contract.md)
+* [Rewards Tracking & Payout Contracts](smart-contract-details/rewards-tracking-and-payout-contracts.md)
 * [Rewards Table](smart-contract-details/rewards-table.md)
 * [Main Token Contract](smart-contract-details/main-token-contract.md)
 * [Bridge Contracts](smart-contract-details/bridge-contracts.md)

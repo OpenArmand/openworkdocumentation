@@ -29,4 +29,4 @@ icon: money-bills-simple
 
 **Important Note:**&#x20;
 
-Staked Tokens are treated the same as Earnings & Governance rewards tokens, but can be unstaked without the need to perform the governance functions necessarily.
+Staked Tokens are treated the same as Earned tokens, but can be unstaked without the need to perform the governance functions necessarily.
