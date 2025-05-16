@@ -20,12 +20,10 @@ This table describes the features in more detail.
 
 
 
-In actial implementation of these contracts, these functions are split into 2 contracts:
+This table shows how the original "Native Athena Contract" was split between:
 
-1. DisputeOracleEngine Contract
-2. SkillQuestionEngine
-
-See below table for details
+1. DisputeEngine - handling job-related disputes and their resolution
+2. SkillQuestionEngine - handling skill verification applications and the "Ask Athena" functionality
 
 | Feature Description                            | Contract Location                          |
 | ---------------------------------------------- | ------------------------------------------ |
@@ -48,7 +46,3 @@ See below table for details
 | "Ask Athena" functionality (special proposals) | SkillQuestionEngine                        |
 | Upgrade capability for both contracts          | Both (via UUPS pattern)                    |
 
-This table shows how the original "Native Athena Contract" was split between:
-
-1. DisputeEngine - handling job-related disputes and their resolution
-2. SkillQuestionEngine - handling skill verification applications and the "Ask Athena" functionality
