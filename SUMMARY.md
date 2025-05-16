@@ -16,7 +16,7 @@
 * [OpenWork Chain](smart-contract-details/openapi.md)
 * [Main DAO](smart-contract-details/openapi-1.md)
 * [Native DAO](smart-contract-details/openapi-2.md)
-* [Native Athena Contract](smart-contract-details/native-athena-contract.md)
+* [Native Athena](smart-contract-details/native-athena.md)
 * [Athena Client Contract](smart-contract-details/athena-client-contract.md)
 * [Native OpenWork Contract](smart-contract-details/native-openwork-contract.md)
 * [Local OpenWork Contract](smart-contract-details/local-openwork-contract.md)
