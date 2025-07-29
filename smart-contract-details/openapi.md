@@ -1,4 +1,5 @@
 ---
+description: Details of the OpenWork Chain
 icon: link
 ---
 
@@ -10,11 +11,11 @@ Deploying Athena on the OpenWork chain makes the dispute resolution process very
 OpenWork Chain will be an optimistic roll-up based on the OP-Stack with the following customisations :
 
 1. Genesis Block - The genesis block will be edited to include the following contracts&#x20;
-   1. [Native OpenWork Contract](native-openwork-contract.md)
-   2. [Earnings & Rewards Contract](rewards-tracking-and-payout-contracts.md)
+   1. [Native OpenWork Job Contract](native-openwork-contract.md)
+   2. [Native Rewards Contract](rewards-tracking-and-payout-contracts.md)
    3. [Native DAO Contract ](openapi-2.md)
    4. [Native Athena Contract ](native-athena-contract.md)
-   5. [Bridge Contract](bridge-contracts.md)
+   5. [Native Brigde Contract](bridge-contracts.md)
 2. The  configuration values will be tweaked to optimise the chain according to OpenWork’s requirements:&#x20;
    1. Validator Set :
       1. Set minimum stake of 0.3 ETH required to host a node.&#x20;

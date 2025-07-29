@@ -1,10 +1,9 @@
 ---
+description: This table describes the logic for calculating governance power
 icon: unlock
 ---
 
 # Governance Power Calculation
-
-This table describes the staking and unlocking/redeeming logic for all types of token
 
 | Type of Token           | Stake Period                                                    | Pre-Staked? | Governance Action Required                                            | Governance Power                |
 | ----------------------- | --------------------------------------------------------------- | ----------- | --------------------------------------------------------------------- | ------------------------------- |

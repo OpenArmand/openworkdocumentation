@@ -1,4 +1,5 @@
 ---
+description: Describes how to store data in IPFS in a uniform format
 icon: cloud
 ---
 
