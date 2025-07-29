@@ -17,7 +17,7 @@
 * [Main DAO Contract](smart-contract-details/openapi-1.md)
 * [Native DAO Contract](smart-contract-details/openapi-2.md)
 * [Native Athena Contract](smart-contract-details/native-athena-contract.md)
-* [Local Athena Contract](smart-contract-details/local-athena-contract.md)
+* [Local Athena Contract](smart-contract-details/athena-client-contract.md)
 * [Native OpenWork Job Contract](smart-contract-details/native-openwork-contract.md)
 * [Local OpenWork Job Contract](smart-contract-details/local-openwork-job-contract.md)
 * [Main Rewards Contract & Native Rewards Contract](smart-contract-details/rewards-tracking-and-payout-contracts.md)
@@ -27,7 +27,7 @@
 
 ## Other Details
 
-* [Voting Power \&Token Unlocking/Unstaking](other-details/voting-power-and-token-unlocking-unstaking.md)
+* [Voting Power Calculation](other-details/voting-power-calculation.md)
 * [What gets stored in IPFS?](other-details/what-gets-stored-in-ipfs.md)
 * [OpenWork Tokenomics Draft](other-details/openwork-tokenomics-draft.md)
 * [Timeline Estimation](other-details/timeline-estimation.md)

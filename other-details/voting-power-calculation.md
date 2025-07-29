@@ -2,7 +2,7 @@
 icon: unlock
 ---
 
-# Voting Power \&Token Unlocking/Unstaking
+# Voting Power Calculation
 
 This table describes the staking and unlocking/redeeming logic for all types of token
 
