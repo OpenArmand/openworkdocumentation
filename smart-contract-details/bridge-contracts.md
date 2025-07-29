@@ -4,7 +4,7 @@ icon: bridge-suspension
 
 # Bridge Contracts
 
-The bridge contracts will be deployed on all chains. On all chains they will be used to send or receive information needed to execute a specific function. Currently, we're planning to use the CCIP protocol for all bridging needs unless we have a reason to switch to another protocol.
+The bridge contracts will be deployed on all chains. On all chains they will be used to send or receive information needed to execute a specific function. Currently, we're using LayerZero protocol for all bridging needs unless we have a reason to switch to another protocol.
 
 
 
@@ -31,12 +31,3 @@ Key Functions on OpenWork chain -
 
 
 Apart from the above specified functions, bridge contracts may be used to achieve other functionalities described on this doc.
-
-
-
-\[highly optional] OpenWork’s seamless experience not needing transactions each time \[like DYDX]
-
-We need to explore how to make the app easier to use without the user needing to make transactions each time for smaller operations like “change name” or “apply for a job”. Perhaps OpenWork can cover these fees or another solution should be explored for the same \[how DYDX does it perhaps]
-
-\
-\

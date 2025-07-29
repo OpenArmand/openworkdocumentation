@@ -6,7 +6,7 @@ description: >-
 icon: user-doctor
 ---
 
-# Native OpenWork Contract
+# Native OpenWork Job Contract
 
 This table describes all the features this contract will have and how they will be implemented.&#x20;
 

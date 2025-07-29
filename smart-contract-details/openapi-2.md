@@ -1,21 +1,15 @@
 ---
+description: >-
+  Details of the features in the Native DAO Contract to be deployed on Openwork
+  Chain
 icon: network-wired
 ---
 
-# Native DAO
+# Native DAO Contract
 
 The Native DAO references the Main DAO for verification of key data like member details. It is mainly responsible to kick-start Skills/Oracles and enact other key decisions related to Athena like adding/penalizing members.
 
-\
-The Native DAO is divided into 2 parts (see Table 2 below) to stay within the limit of ethereum contract size limit:
-
-&#x20;1\.  NativeDAOGovernance contract
-
-2. Skill Oracle Manager contract
-
-
-
-Table 1 (describes all features of Native DAO in detail)
+Table (describes all features of Native DAO in detail)
 
 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                   | Implementation                                                                                                                                                                                                                                                                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -35,36 +29,3 @@ Table 1 (describes all features of Native DAO in detail)
 | Remove stake of member as a penalty                                                                                                                                                                                                                                                                                                                                                                                                           | <p>removeStake(address, amount) {<br>remove the stake of the mentioned member by the mentioned amount<br>}</p>                                                                                                                                                                                                                         |
 | Should interface with the MainDAO to validate things like stakes tokens and other essential data.                                                                                                                                                                                                                                                                                                                                             | <p>For verifying stake : Call getStake() function in mainDAO<br>For verifying member : Call isMember() function<br><br>The Main DAO contract needs to be referenced in this contract so that DAO can call functions on this contract. </p>                                                                                             |
 | <p>All rules here must be upgradable:<br>Upgrade the governance of the skill oracles.</p>                                                                                                                                                                                                                                                                                                                                                     | <p>According to the UUPS standard this contract will have proxy and implementation contract.<br><br>The overall logic of this contract can be changed by calling the upgrade function and changing the Implementation contract.</p>                                                                                                    |
-
-
-
-Table 2 (desribes how functions are split into 2 contracts)
-
-| Feature Description                                    | Contract Location   |
-| ------------------------------------------------------ | ------------------- |
-| Treasury management of OpenWork tokens and funds       | NativeDAOGovernance |
-| Token minting (1B tokens on Ethereum Mainnet)          | NativeDAOGovernance |
-| Staking functionality on Ethereum through MainDAO      | NativeDAOGovernance |
-| DAO membership management (100k tokens minimum)        | NativeDAOGovernance |
-| Staking periods (1, 2, 3 years with multipliers)       | NativeDAOGovernance |
-| Voting on proposals with staked tokens                 | NativeDAOGovernance |
-| Unstaking/redeeming tokens (14-day timelock)           | NativeDAOGovernance |
-| Penalty stake removal                                  | NativeDAOGovernance |
-| Proposal initiation (1M tokens required)               | NativeDAOGovernance |
-| Voting threshold management (80% majority, 20% quorum) | NativeDAOGovernance |
-| Vote delegation functionality                          | NativeDAOGovernance |
-| Cross-chain upgrade authorization                      | NativeDAOGovernance |
-| Earned tokens vesting/staking management               | NativeDAOGovernance |
-| Governance action tracking                             | NativeDAOGovernance |
-| Contract references across chains                      | NativeDAOGovernance |
-| Upgradeable contract patterns (except Token)           | Both                |
-| Voting rules updates                                   | NativeDAOGovernance |
-| Minimum staking rule updates                           | NativeDAOGovernance |
-| Skills registration and management                     | SkillOracleManager  |
-| Skill oracle creation and management                   | SkillOracleManager  |
-| Oracle membership eligibility                          | SkillOracleManager  |
-| Oracle activation threshold (20 members)               | SkillOracleManager  |
-| Verifier action recording                              | SkillOracleManager  |
-| User skill verification                                | SkillOracleManager  |
-| Oracle voting power management                         | SkillOracleManager  |
-| Skill verification date tracking                       | SkillOracleManager  |

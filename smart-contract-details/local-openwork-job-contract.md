@@ -2,9 +2,9 @@
 icon: user-doctor
 ---
 
-# Local OpenWork Contract
+# Local OpenWork Job Contract
 
-The Local OpenWork Contract acts as a wrapper on the local chain that directs calls to the corresponding functions on the Native OpenWork Contract through a bridge. The only exceptions are functions that handle payment locking/unlocking, which occur on the Local chain.
+The Local OpenWork Job Contract acts as a wrapper on the local chain that directs calls to the corresponding functions on the Native OpenWork Contract through a bridge. The only exceptions are functions that handle payment locking/unlocking, which occur on the Local chain.
 
 | **Function**                                                     | **Implementation Details**                                                                                                                                                          |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
