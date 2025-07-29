@@ -27,7 +27,7 @@
 
 ## Other Details
 
-* [Voting Power Calculation](other-details/voting-power-calculation.md)
+* [Governance Power Calculation](other-details/governance-power-calculation.md)
 * [What gets stored in IPFS?](other-details/what-gets-stored-in-ipfs.md)
 * [OpenWork Tokenomics Draft](other-details/openwork-tokenomics-draft.md)
 * [Timeline Estimation](other-details/timeline-estimation.md)
