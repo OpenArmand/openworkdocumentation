@@ -13,7 +13,7 @@ The OpenWork System works across 3 layers of **blockchains**.
 
 The diagram below represents the higher level architecture of the OpenWork System.
 
-<figure><img src="../.gitbook/assets/openwork-block-diagram.png" alt=""><figcaption><p>The OpenWork System</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/The Openwork Chain (2).png" alt=""><figcaption><p>The OpenWork System</p></figcaption></figure>
 
 The below table describes all the contracts on all chain in brief:
 
