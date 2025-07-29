@@ -6,7 +6,7 @@ icon: sack-dollar
 
 The calculation and disbursement of rewards is managed through 2 contract:
 
-1. Native Rewards Contract - This contract is responsible for keeping a record of earned tokens and updating it every time a job is completed.
+1. Native Rewards Contract - This contract is responsible for keeping a record of earned tokens and updating it every time a job is completed. It is deployed on the the Openwork Chain and as an extension to the Native Openwork Job Contract for handling reward calculation tasks.
 2. Main Rewards Contract - This contract is on Ethereum and is responsible for paying out the tokens once all conditions are met.
 
 | Feature                                                                                                                                                                                                                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |

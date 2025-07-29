@@ -1,8 +1,9 @@
 ---
+description: Describes how the Local Athena Contract works
 icon: a
 ---
 
-# Local Athena
+# Local Athena Contract
 
 Similar to the Local Openwork Job Contract, the Local Athena Contract should call the Native Athena contract to execute the corresponding functions on the OpenWork Chain through a bridge.\
 This contract empowers users on any supported chain to raise disputes to the Native Athena Contract.

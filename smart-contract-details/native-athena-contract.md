@@ -1,10 +1,11 @@
 ---
+description: Describes the dispute management and other Native Athena features
 icon: a
 ---
 
-# Native Athena
+# Native Athena Contract
 
-The Native Athena Contract drives decentralized dispute resolution and skill verification using oracle member votes and fee incentives.
+The Native Athena Contract drives decentralised dispute resolution and skill verification using oracle member votes and fee incentives.
 
 This table describes the features in more detail.
 
@@ -17,32 +18,3 @@ This table describes the features in more detail.
 | If found malicious by the Skill oracle or DAO, the staker at any point can have all their tokens taken from them.                                                                                                                                                                                                                                                                                                                                                                                                  | this is done in the Native DAO                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | <p>Athena should be made upgradable so it’s compatible with future needs for programming jobs and making assessments based on other factors other than disputes.<br></p>                                                                                                                                                                                                                                                                                                                                           | <p>askAthena(description, fee) <br>A special type-of proposal which anyone can call by offering a fee and seek a yes/no answer from Athena.<br><br></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | <p>All rules must be upgradable.<br></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | This is done through the Main DAO using the UUPS upgrade process. i.e. to upgrade the implementation contract.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-
-
-
-This table shows how the original "Native Athena Contract" was split between:
-
-1. DisputeEngine - handling job-related disputes and their resolution
-2. SkillQuestionEngine - handling skill verification applications and the "Ask Athena" functionality
-
-| Feature Description                            | Contract Location                          |
-| ---------------------------------------------- | ------------------------------------------ |
-| Oracle activity status checking                | DisputeEngine/SkillQuestionEngine (shared) |
-| Dispute raising for jobs                       | DisputeEngine                              |
-| Dispute struct management                      | DisputeEngine                              |
-| Voting on disputes                             | DisputeEngine                              |
-| Dispute fee management                         | DisputeEngine                              |
-| Dispute refund claiming                        | DisputeEngine                              |
-| Dispute fee claiming for voters                | DisputeEngine                              |
-| 4-day timer for dispute resolution             | DisputeEngine                              |
-| Skill verification application processing      | SkillQuestionEngine                        |
-| Skill application struct management            | SkillQuestionEngine                        |
-| Skill application fee management               | SkillQuestionEngine                        |
-| Voting on skill applications                   | SkillQuestionEngine                        |
-| Skill application refund claiming              | SkillQuestionEngine                        |
-| Skill application fee claiming for voters      | SkillQuestionEngine                        |
-| 4-day timer for skill verification             | SkillQuestionEngine                        |
-| Malicious staker token confiscation            | NativeDAOGovernance (external)             |
-| "Ask Athena" functionality (special proposals) | SkillQuestionEngine                        |
-| Upgrade capability for both contracts          | Both (via UUPS pattern)                    |
-
