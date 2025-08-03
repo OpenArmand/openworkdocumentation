@@ -15,7 +15,8 @@ The diagram below represents the higher level architecture of the OpenWork Syste
 
 <figure><img src="../.gitbook/assets/The Openwork Chain (2).png" alt=""><figcaption><p>The OpenWork System</p></figcaption></figure>
 
-The below table describes all the contracts on all chain in brief:
+The below table describes all the contracts on all chain in brief:\
+Latest version of contracts on GitHub - [https://github.com/AnasShaikh/openwork-contract-v0.2/tree/main/src/Final%20Set%20of%20Contracts](https://github.com/AnasShaikh/openwork-contract-v0.2/tree/main/src/Final%20Set%20of%20Contracts)
 
 | Chain          | Name of Contracts                                                                                                                                                 | Short description                                                                                                                                                                                                                                                                                     |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
