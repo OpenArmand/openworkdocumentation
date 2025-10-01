@@ -22,7 +22,8 @@
 * [Local OpenWork Job Contract](smart-contract-details/local-openwork-job-contract.md)
 * [Main Rewards Contract & Native Rewards Contract](smart-contract-details/rewards-tracking-and-payout-contracts.md)
 * [Rewards Table (And Token Allocation)](smart-contract-details/rewards-table-and-token-allocation.md)
-* [Main Token Contract](smart-contract-details/main-token-contract.md)
+* [Main Token Contract](smart-contract-details/main-token-contract/README.md)
+  * [CCTP Transceiver](smart-contract-details/main-token-contract/cctp-transceiver.md)
 * [Bridge Contracts](smart-contract-details/bridge-contracts.md)
 
 ## Other Details
