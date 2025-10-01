@@ -17,7 +17,7 @@
 * [Main DAO Contract](smart-contract-details/openapi-1.md)
 * [Native DAO Contract](smart-contract-details/openapi-2.md)
 * [Native Athena Contract](smart-contract-details/native-athena-contract.md)
-* [Local Athena Contract](smart-contract-details/athena-client-contract.md)
+* [Local Athena (AthenClient) Contract](smart-contract-details/local-athena-athenclient-contract.md)
 * [Native OpenWork Job Contract](smart-contract-details/native-openwork-contract.md)
 * [Local OpenWork Job Contract](smart-contract-details/local-openwork-job-contract.md)
 * [Main Rewards Contract & Native Rewards Contract](smart-contract-details/rewards-tracking-and-payout-contracts.md)
