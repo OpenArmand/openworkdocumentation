@@ -5,7 +5,12 @@ icon: link
 
 # OpenWork Chain
 
-OpenWork Chain is a natively blockchain which will act as a single source of truth for the multi-chain OpenWork system. It is also intended to do the heavy lifting for the complex logic execution enabling other chains to offload their computation. This will reduce overall cost of execution.\
+**Important Recent Development**: \
+We might just use Base for this due to it being trustworthy and much easier to integrate, also because we are using cctp now.\
+\
+Earlier we were planning on the below implementation.\
+\
+OpenWork Chain is a native blockchain which will act as a single source of truth for the multi-chain OpenWork system. It is also intended to do the heavy lifting for the complex logic execution enabling other chains to offload their computation. This will reduce overall cost of execution.\
 Deploying Athena on the OpenWork chain makes the dispute resolution process very affordable.  It can also be used a base-layer for future innovations. For eg., programmable work as outlined in [the whitepaper ](https://drive.google.com/file/d/1tdpuAM3UqiiP_TKJMa5bFtxOG4bU_6ts/view)or any other idea the community comes up with.
 
 OpenWork Chain will be an optimistic roll-up based on the OP-Stack with the following customisations :
